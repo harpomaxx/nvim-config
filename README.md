@@ -28,3 +28,19 @@ The configuration will handle:
 - Plugin installation and setup
 - LSP server installation (pyright) via Mason
 - All necessary configurations
+
+## Optional
+
+Install Nerd fonts for nicer icons
+
+```bash
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+
+# Download JetBrainsMono Nerd Font
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip JetBrainsMono.zip
+
+# Refresh system fonts
+fc-cache -fv
+```
